@@ -15,10 +15,7 @@ class String
   end
 
   def count_sentences
-    first = self.split('. ')
-    first.split('?')
-    first.count
-    
+    self.split('. ')
     #binding.pry
   end
 end
