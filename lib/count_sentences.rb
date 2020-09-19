@@ -17,7 +17,7 @@ class String
   def count_sentences
     first = self.split('. ')
     second = first.split('?')
-    second.count_sentences
+    second.count
     
     #binding.pry
   end
