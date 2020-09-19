@@ -18,6 +18,5 @@ class String
     sentences = self.split(/[.?!]/).reject {|sentence| sentence.empty?}
     sentences.count
     
-    #binding.pry
   end
 end
